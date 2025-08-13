@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    background: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff2222;
+}
+
+#movieList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.add-btn {
+    background: #00c851;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #007e33;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
